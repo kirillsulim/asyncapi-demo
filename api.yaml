@@ -4,7 +4,7 @@ info:
   version: '0.1.0'
 servers:
   production:
-    url: broker.mycompany.com
+    url: ya.ru
     protocol: kafka
     description: This is "My Company" broker.
 channels:
