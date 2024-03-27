@@ -7,15 +7,17 @@ servers:
     url: ya.ru
     protocol: kafka
     description: This is "My Company" broker.
+schemas:
+  GreetingMessage:
+    type: object
+      properties:
+        greeting:
+          type: string
+          pattern: '^hello .+$'
 channels:
   hello:
     publish:
       message:
-        name: GreetingMessage
         description: "Hello world message"
         payload:
-          type: object
-          properties:
-            greeting:
-              type: string
-              pattern: '^hello .+$'
+          type: GreetingMessage
