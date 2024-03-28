@@ -11,9 +11,11 @@ channels:
   hello:
     publish:
       message:
+        name: GreetingMessage
         description: "Hello world message"
         payload:
           type: object
+          name: GreetingPayload
           properties:
             greeting:
               type: string

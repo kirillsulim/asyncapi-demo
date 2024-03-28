@@ -63,3 +63,7 @@ public class AnonymousSchema_1 {
 ```
 
 ## Generate spring service
+
+```shell
+asyncapi generate fromTemplate api.yaml @asyncapi/java-spring-template -o generated
+```
