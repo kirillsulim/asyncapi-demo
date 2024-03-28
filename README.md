@@ -67,3 +67,5 @@ public class AnonymousSchema_1 {
 ```shell
 asyncapi generate fromTemplate api.yaml @asyncapi/java-spring-template -o generated
 ```
+
+Generated code is in [generated directory](generated/).

@@ -1,0 +1,12 @@
+
+
+
+spring:
+  kafka: 
+    # - production in ya.ru : 
+    # This is "My Company" broker.
+    bootstrap-servers: ya.ru
+    listener:
+      poll-timeout: 3000
+      concurrency: 3
+  
