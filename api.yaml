@@ -15,7 +15,7 @@ channels:
         description: "Hello world message"
         payload:
           type: object
-          name: GreetingPayload
+          $id: GreetingPayload
           properties:
             greeting:
               type: string
